@@ -436,18 +436,33 @@
                 </ul>
               </div> 
               <div id="interesting_video"> 
-                <ul>
-                  <li> 
-                        <div id="v2" class="item" alt="" style="width:55%;height:100%">
-                          <video src="img/project/v2.mp4" controls></video>
-                        </div>
-                  </li>
-                  <li>
-                        <div id="v2" class="item" alt="" style="width:55%;height:100%">
-                          <video src="img/project/v3.mp4" controls></video>
-                        </div>
-                  </li>
-                </ul>
+                          <style>
+                            .item {
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              height: 100%;
+                            }
+                          
+                            .item video {
+                              width: 100%;
+                              height: 100%;
+                              object-fit: cover;
+                            }
+                          </style>
+                          
+                          <ul>
+                            <li> 
+                              <div class="item" style="width: 55%; height: 100%;">
+                                <video src="img/project/v2.mp4" controls></video>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="item" style="width: 55%; height: 100%;">
+                                <video src="img/project/v3.mp4" controls></video>
+                              </div>
+                            </li>
+                          </ul>
               </div>  
             </section>
           </div>
