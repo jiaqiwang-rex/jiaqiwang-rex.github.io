@@ -274,7 +274,7 @@
                         </span>
                         <p>
                           <b>Task</b>: Developing an AI-based technique to non-invasively predict the viability of immotile sperm using a single brightfield image, 
-                          without requiring sample processing..<br>
+                          without requiring sample processing.<br>
                           <b>What</b>: Testing the hypothesis that viability information can be reflected by sperm morphology in microscopic 
                           images and developing an AI model for viability prediction. <br> 
                           <b>Benefits</b>: Non-invasive prediction of sperm viability, eliminating the need for cytotoxic reagents or tedious procedures. 
@@ -305,17 +305,15 @@
                           <w style="color:rgb(0, 0, 0);"><em>Jiaqi Wang</em>, Jiaqi Chen, Chenjie Wang, Zhuoran Zhang</w>
                         </span>
                         <p>
-                          <b>What</b>: Adress space management for distributed persistent memory.<br>
-                          <b>Motivation</b>: It is essential to build a distributed persistent memory allocator with high availability, 
-                          high performance and crash consistency, 
-                          but the existing persistent memory allocator cannot satisfy the above characteristics at the same time.<br>
-                          <b>How</b>: Use a centralized monitor to manage the node and address mapping information in the cluster. 
-                          Use the raft protocol to ensure the high availability of the monitor. 
-                          Use the primary backup protocol to ensure the high availability of the data. 
-                          Build a thread-isolated address mapping table and batch processing strategy to improve access to metadata server performance.
-                          Use the state machine mechanism inside the local allocator, 
-                          and use the two-phase commit method to ensure the atomicity of address allocation. 
-                          Design a lock-free data structure for address allocation 
+                          <b>Task</b>:Estimating the z-axis position of a robot end-effector using a multiclass classification approach.<br>
+                          <b>What</b>: The paper proposes a strategy to transform the z-axis positioning problem into a multiclass classification problem by classifying monocular images of the end-effector into different depth intervals. <br> 
+                          <b>Benefits</b>: The proposed strategy provides a method to estimate the out-of-focus depth of the end-effector 
+                          and offer 3D visual feedback for robotic micromanipulation. It overcomes the challenge of obtaining visual feedback 
+                          for the z-axis position, which is crucial in robot micromanipulation. <br> 
+                          <b>How</b>:  A deep learning model is developed to solve the multiclass 
+                          classification problem, and a novel loss function is introduced to handle the shallow depth of 
+                          field of an optical microscope. Experimental results using glass micropipettes demonstrate a high accuracy 
+                          of 96.1% for depth prediction/classification. 
                         </p>
                         <div class="accent-button">
                           <a href="img/pdf/IEEE CBS_JIAQI.pdf" target="_blank" class="button">Object depeth prediction</a>
