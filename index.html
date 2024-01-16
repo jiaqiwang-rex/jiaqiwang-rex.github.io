@@ -337,18 +337,15 @@
                           <w style="color:rgb(0, 0, 0);">Aojun Jiang, Miao Hao, Yiqian Li, <em>Jiaqi Wang</em> et al.</w>
                         </span>
                         <p> 
-                          <b>What</b>: Deliver scalable performance on RC RDMA.<br>
-                          <b>Motivation</b>: RDMA suffers performance collapse when transferring data to an increasing number of clients on reliable connection 
-                          because of resource contention in the CPU cache.<br>
-                          <b>How</b>: Deliver scalable performance based on RC RDMA. 
-                          It achieves so by grouping and rating the network connections, 
-                          so as to balance the saturation and thrashing of the cache space.
-                          Introduced a background thread pool for efficient data storage and enhanced RDMA with strategic scheduling.
-                          Constructed a QP-isolated RDMA communication method while utilizing GPUDirect for inter-node communication, 
-                          reducing message copying overhead.
-                          Developed a background thread pool for parallel data persistence and improved RDMA scalability 
-                          through hardware resource reuse and efficient scheduling.    
-                          Achieved a write bandwidth 18\% higher than the baseline system.
+                          <b>Introduction</b>:This paper presents an automated point-of-care semen analysis method that 
+                          utilizes smartphone imaging to measure sperm concentration and motility. The method aims to match 
+                          clinical standards while offering user-friendly operation. A boundary-sensitive segmentation network 
+                          is developed to identify and differentiate sperm from impurities in raw semen. To address challenges 
+                          posed by smartphone imaging and undiluted semen samples, a novel occlusion-aware multisperm tracking algorithm 
+                          is proposed. An occlusion-awareness module is introduced to robustly track multiple sperm and handle frequent 
+                          sperm crossover/occlusion. The proposed method achieves a high success rate for tracking occluded sperm and 
+                          demonstrates low errors in sperm concentration and motility. In clinical tests involving 50 participants, 
+                          the method shows good agreement with clinical standards and performs well even when used by inexperienced users.
                         </p>
                         <div class="accent-button">
                           <a href="img/pdf/tase.pdf" target="_blank" class="button">Paper</a>
@@ -369,31 +366,11 @@
                           
                         </span>
                         <p>
-                          <b>Introduction</b>: Unbiased measurement of sperm morphometric
-and motility parameters is essential for assessing fertility potential and guiding visual feedback for microrobotic manipulation.
-Automated analysis of multiple sperms and selection of an
-optimal sperm is crucial for in vitro fertilisation treatment,
-such as robotic intracytoplasmic sperm injection. However,
-conventional image processing methods have limitations in
-analysing small sperm objects under microscopic imaging. The
-emergence of convolutional neural networks (CNNs) has offered
-promising advancements in sperm analysis. However, previous
-CNN methods have struggled to accurately segment tiny objects,
-requiring staining or fluorescence techniques to enhance visual
-contrast between sperm and culture medium, leading to clinical
-impracticality. To address these limitations, we introduce a
-novel segmentation network named the cross-scale guidance
-(CSG) network for accurate and efficient segmentation of
-minute sperm objects. The CSG network employs innovative
-modules, including collateral multi-scale convolution, crossscale feature map guide, and multi-scale feature fusion, to
-preserve essential sperm details despite their small size. Experimental results indicate that the CSG network surpassed the
-state-of-the-art models designed for small object segmentation,
-achieving a significant increase up to 18.62% higher mean
-intersection over union (mIoU). Additionally, the CSG network
-excelled in sperm morphometric analysis, achieving errors
-below 20%. Moreover, sperm motility parameters were further
-derived from the segmentation results for comprehensive sperm
-fertility analysis.
+                          <b>Introduction</b>:Accurate measurement of sperm parameters is crucial for fertility 
+                          assessment and robotic manipulation. Conventional methods struggle to analyze small sperm objects, 
+                          but the CSG network, a novel segmentation network, addresses these limitations. 
+                          It preserves essential details using innovative modules and outperforms state-of-the-art models, 
+                          achieving higher accuracy and enabling comprehensive fertility analysis.
                           </p>
                         <div class="accent-button">
                           <a href="img/pdf/icra.pdf" target="_blank" class="button">Paper</a>
